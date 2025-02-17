@@ -7,12 +7,8 @@
     if(isset($_POST['delete_cookie'])){
         setcookie("user", "", time() - 3600, "/");
         $message = "Cookie has been deleted!";
-    }
-
-    
+    }   
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
